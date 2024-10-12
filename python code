@@ -1,0 +1,33 @@
+import random
+
+def game_result(user_choice, computer_choice):
+    
+    if user_choice == computer_choice:
+        return "It's a tie!"
+    
+    if (user_choice == 'snake' and computer_choice == 'water') or \
+       (user_choice == 'water' and computer_choice == 'gun') or \
+       (user_choice == 'gun' and computer_choice == 'snake'):
+        return "You win!"
+    
+    return "You lose!"
+
+choices = ['snake', 'water', 'gun']
+
+while True:
+    print("Enter 'snake', 'water', or 'gun' (or type 'exit' to quit):")
+    user_choice = input().lower()
+
+    if user_choice == 'exit':
+        print("Game over!")
+        break
+
+    if user_choice not in choices:
+        print("Invalid choice, please try again.")
+        continue
+    
+    computer_choice = random.choice(choices)
+    print(f"Computer chose: {computer_choice}")
+
+    result = game_result(user_choice, computer_choice)
+    print(result)
