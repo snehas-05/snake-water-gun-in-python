@@ -1,4 +1,5 @@
 Snake-Water-Gun Game 🎮
+
 Welcome to the Snake-Water-Gun game, a simple Python game inspired by the classic "Rock-Paper-Scissors" concept, but with a fun twist using Snake, Water, and Gun.
 
 Game Rules 📝
