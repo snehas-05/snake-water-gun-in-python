@@ -7,8 +7,10 @@ The rules of the game are simple:
 Snake drinks Water 🐍 > 💧 → Snake wins.
 Water douses the Gun 💧 > 🔫 → Water wins.
 Gun shoots the Snake 🔫 > 🐍 → Gun wins.
+
 If both players choose the same option, it results in a tie.
 Features ✨
+
 Randomized choice for the computer.
 Interactive console-based game.
 User-friendly prompts to guide you through the game.
@@ -17,6 +19,7 @@ How to Run 🚀
 Follow these steps to play the game on your local machine:
 
 Prerequisites
+
 Python 3 must be installed on your system. You can download it from the official Python website: python.org
 
 Steps:
