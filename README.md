@@ -9,18 +9,26 @@ Water douses the Gun 💧 > 🔫 → Water wins.
 Gun shoots the Snake 🔫 > 🐍 → Gun wins.
 
 If both players choose the same option, it results in a tie.
+
 Features ✨
 
 Randomized choice for the computer.
+
 Interactive console-based game.
+
 User-friendly prompts to guide you through the game.
+
 Option to exit the game at any point by typing 'exit'.
+
 How to Run 🚀
+
 Follow these steps to play the game on your local machine:
 
 Prerequisites
 
-Python 3 must be installed on your system. You can download it from the official Python website: python.org
+Python 3 must be installed on your system. 
+
+You can download it from the official Python website: python.org
 
 Steps:
 Clone the repository:
@@ -38,7 +46,9 @@ python snake_water_gun.py
  ```
 
 Contribution 🤝
+
 Feel free to contribute to this project by forking the repository, making enhancements, or fixing bugs. Open a pull request, and I’ll be happy to review it!
 
 License 📜
+
 This project is licensed under the MIT License – see the LICENSE file for details.
